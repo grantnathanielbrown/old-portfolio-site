@@ -17,42 +17,147 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
 body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: Open Sans, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
 }
+.intro {
+  margin: -25px -8px -25px -8px;
+  color: white;
+  background-image: url("http://res.cloudinary.com/jkeohan/image/upload/v1509050166/header_bg_f5pvpn.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 656px;
+  background-repeat: no-repeat;
+  margin
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  padding-top: 15px;
+  padding-left: 80px;
+  padding-bottom: 30px;
+}
+#firsth2 {
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#buttonone {
+  font-size: 21px;
+  border-radius: 5px;
+  border: 10px;
+  height: 50px;
+  width: 200px;
+  font-weight: 800;
+  color: #033048;
+  background-color: #f9e42e;
+  position: relative;
+    top: 50%; 
+    left: 41%;
+  
+}
+.description {
+  margin: -0px -8px -27px -8px;
+  background-color: #f0efef;
+  height: 400px;
+}
+#secondh2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #033048;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+#hardsell {
+  padding-left: 50px;
+  font-weight: 300;
+  font-size: 19px;
+}
+li {
+  margin-left: 75px;
+  font-size: 19px;
+  font-weight: light;
+}
+.testimony {
+  margin: -0px -8px -12px -8px;
+  background-image: url("http://res.cloudinary.com/jkeohan/image/upload/v1509050227/testimonial_bg_rd59w7.jpg");
+  font-size: 27px;
+  color: white;
+  font-style: italic;
+  font-weight: 300;
+  height: 230px;
+  text-align: center;
+  
+}
+.testimony p {
+  width: 350px;
+  margin: 0 auto;
+}
+.signupnow {
+  margin: -0px -8px -30px -8px;
+  height: 80px;
+  background-color: #f9e42e;
+}
+#buttontwo {
+  margin-top: 15px;
+  height: 50px;
+  width: 240px;
+  font-size: 20px;
+  border: 5px;
+  font-weight: 800;
+  color: white;
+  background-color: #033048;
+  position: relative;
+    top: 50%; 
+    left: 38%;
+  border-radius: 5px;
+}
+#finale {
+  margin-left: -8px;
+  margin-right: -8px;
+  font-size: 24px;
+  font-weight: 800;
+  height: 200px;
+  background-color: #121212;
+  color: #f9e42e;
+  text-align: center;
+}
+#finale img {
+  padding: 0px 15px 0px 15px;
+}
+#finale p {
+  color: white;
+  font-size: 13px;
+  margin-top: 55px;
+}
+/* TO DO LIST
+A. INTRO
+  1. Fix fonts
+  2. Relocate text
+  3. Relocate and color button
+  4. Make sure all of it scales to the page / browser
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /******************************************
