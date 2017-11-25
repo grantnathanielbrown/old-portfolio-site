@@ -16,7 +16,7 @@ Include wireframes for all pages included in the site including:
 
 ### Landing Page
 
-https://go.gliffy.com/go/html5/12367115
+https://go.gliffy.com/go/share/snege3j9htmkqfya6847
 
 #### Desktop
 
